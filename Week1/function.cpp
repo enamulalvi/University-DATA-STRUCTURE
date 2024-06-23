@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void adding()
+void adding(int a[100])
 {
      int poss,num,i,temp;
     cout << "Enter possition number & number "<<endl;
@@ -20,7 +20,7 @@ int main ()
    int temp;
     int a[100]={11,12,13,14,15};
 
-    cout << "To add number press 1 and to drop number press 2 "<< endl;
+    cout << "To add number press 1  and to drop number press 2 "<< endl;
     cin >> temp;
     if(temp==1)
     {
