@@ -55,7 +55,8 @@ int main()
     int a[100] = {11, 12, 13, 14, 15};
     int size = 5;
 
-    cout << "To add number press 1 and to drop number press 2 " << endl;
+    cout << "To add number press  1 " << endl;
+    cout << "To Drop number press 2 "<< endl;
     cin >> temp;
     if (temp == 1)
     {
