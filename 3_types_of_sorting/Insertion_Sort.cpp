@@ -18,6 +18,11 @@ int main()
     {
         cin >> arr[i];
     }
+    cout<<"UnSorted element are :";
+    for(int i = 0 ; i < n ; i++)
+    {
+        cout << arr[i]<<" ";
+    }
 
     int v = 0;
 
