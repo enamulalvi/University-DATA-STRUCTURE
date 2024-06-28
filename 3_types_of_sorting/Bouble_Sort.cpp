@@ -6,7 +6,7 @@ int main()
 {
     int n ;
 
-    cout << "Number of elements you want to  insert : ";
+    cout << "Please! Enter the Number of elements you want to  insert : ";
 
     cin >> n ;
 
@@ -25,6 +25,12 @@ int main()
     int N = n;
 
     int k;
+    cout << "UnSorted List is :";
+    for(int i =  0 ; i < n ; i++)
+    {
+        cout<< arr[i]<<" ";
+    }
+    
 
 
 
